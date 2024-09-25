@@ -1,8 +1,4 @@
-def decode_message( s: str, p: str) -> bool:
-
-# write your code here
-  
-        return Falsedef decode_message(s: str, p: str) -> bool:
+def decode_message(s: str, p: str) -> bool:
     # Lengths of the secret message and the decoder key
     m, n = len(s), len(p)
     
